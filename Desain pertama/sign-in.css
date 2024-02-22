@@ -12,11 +12,11 @@
 .btn-facebook {
   color: white !important;
   background-color: #3b5998;
-}  
+}
 
 .card {
   background: #fff;
-  margin-top: 100px;
+  /* margin-top: 100px; */
 }
 
 .img-fluid {
@@ -30,9 +30,28 @@
 .footer {
   position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: 10px;
   width: 100%;
-  background-color: #f8f9fa;
-  color: black;
+  /* background-color: #f8f9fa; */
+  color: white;
   text-align: center;
+  font-weight: bold;
+}
+
+.image-background {
+  position: relative;
+  background-image: url("polines-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  filter: blur(4px);
+}
+
+.sign-in-form {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
