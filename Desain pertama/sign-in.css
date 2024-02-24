@@ -15,16 +15,11 @@
 }
 
 .card {
-  background: #fff;
-  /* margin-top: 100px; */
+  background: #fff;  
 }
 
-.img-fluid {
-  position: absolute;
-  top: 10px;
-  left: 20px;
-  width: 1000px;
-  /* margin-top: 200px; */
+.row {
+  justify-content: center;
 }
 
 .footer {
